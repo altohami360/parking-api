@@ -2,12 +2,11 @@
 
 namespace App\Http\Controllers\Api\V1;
 
-use App\Http\Controllers\Controller;
-use App\Http\Requests\VehicleRequest;
 use App\Http\Resources\VehicleResource;
-use App\Models\Vehicle;
-use Illuminate\Http\Request;
+use App\Http\Requests\VehicleRequest;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Response;
+use App\Models\Vehicle;
 
 class VehicleController extends Controller
 {

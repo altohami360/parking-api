@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers\Api\V1\Auth;
 
-use App\Http\Controllers\Controller;
 use App\Http\Requests\UpdatePasswordRequest;
-use Illuminate\Http\Request;
-use Illuminate\Http\Response;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Http\Response;
 
 class PasswordUpdateController extends Controller
 {
